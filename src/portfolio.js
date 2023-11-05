@@ -23,23 +23,24 @@ const greeting = {
   username: "Aakash Deepak",
   title: "Hi all, I'm Aakash",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "I'm a highly experienced Android Developer with 9 years of expertise in crafting innovative and user-centric mobile applications. My passion for mobile technology and my dedication to delivering top-notch solutions make me a reliable choice for your Android development needs."
+    // "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/13hXWZpCEMAPvIdPimJyOpYoiA5aywZaS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Aakash9565",
+  linkedin: "https://www.linkedin.com/in/akshdpk5",
+  gmail: "aksh.dpk5@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  stackoverflow: "https://stackoverflow.com/users/3541465/aakash",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +50,20 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "I craft user-friendly Android apps with 9 years of experience.",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive User Interfaces for your mobile applications"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Prioritizing exceptional user experiences"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services such as Firebase"
+    ),
+    emoji(
+      "⚡ Collaborating with cross-functional teams for project success"
+    ),
+    emoji(
+      "⚡ Staying current with the latest mobile technologies and trends"
     )
   ],
 
@@ -65,56 +72,36 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Kotlin",
+      fontAwesomeClassname: "fab fa-android"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
+      skillName: "React Native",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "React JS",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "GitHub",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "BitBucket",
+      fontAwesomeClassname: "fab fa-bitbucket"
     },
     {
-      skillName: "sql-database",
+      skillName: "MySQL/ Room Db",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,24 +113,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Punjab Technical University",
+      logo: require("./assets/images/ptuLogo.jpg"),
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "2010 - 2014",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Data Structures and Algorithms, Operating Systems, ..."
     }
+    // ,
+    // {
+    //   schoolName: "Stanford University",
+    //   logo: require("./assets/images/stanfordLogo.png"),
+    //   subHeader: "Bachelor of Science in Computer Science",
+    //   duration: "September 2013 - April 2017",
+    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    // }
   ]
 };
 
@@ -153,16 +137,20 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Java",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Kotlin",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "React Native",
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +162,43 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Technology Lead",
+      company: "Infosys",
+      companylogo: require("./assets/images/infosysLogo.jpg"),
+      date: "Dec 2021 - Present",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Led the development of the Manufacturing Parts and Accessories Management Platform and implemented key features.",
+        "Developed an Android Application for handheld devices to manage in-house assembly and shipping parts for a car manufacturing company using Socket Communication, ensuring a seamless user experience."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Sr. Android Developer",
+      company: "Evon Technologies",
+      companylogo: require("./assets/images/evonLogo.jpg"),
+      date: "Feb 2020 - Dec 2021",
+      descBullets: [
+        "Worked on mobile mental health platform — made for and With Teens In Mind — to improve teen well-being by bringing together the best aspects of digital media, live support, and clinical care.",
+        "Created mobile interface for an online takeaway and home delivery food ordering system.",
+        "Worked on TV Streaming application with options to play various channels and category."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Sr. Android Developer",
+      company: "Lueinfoservices Pvt. Ltd.",
+      companylogo: require("./assets/images/defaultLogo.png"),
+      date: "Jun 2018 - Feb 2020",
+      desc: "Design and implementation of Android application including development of the user interface screens, databases, interfacing with third party components etc as required. Develop user interface as per design. Suggest and implement enhancements to the design to deliver a more compelling solution."
+    },
+    {
+      role: "Sr. Android Developer",
+      company: "ProductRx Consulting Pvt. Ltd.",
+      companylogo: require("./assets/images/productrxLogo.jpg"),
+      date: "Jan 2016 - Jun 2017",
+      descBullets: [
+        "Development and debugging Android applications, gaining valuable experience in app architecture and design.",
+        "Participated in code reviews and contributed to the implementation of new features.",
+        "Created user-friendly interfaces and responsive layouts to enhance user experiences."
+      ]
     }
   ]
 };
@@ -216,25 +218,47 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bemeLogoWeb.webp"),
+      projectName: "BeMe: Teen Wellness",
+      projectDesc: "BeMe is a mobile mental health platform — made for and With Teens In Mind™ — to improve teen well-being by bringing together the best aspects of digital media, live support, and clinical care.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Get the App",
+          url: "https://play.google.com/store/apps/details?id=com.bememultiplatform.android"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/ordermeal.webp"),
+      projectName: "Order Meal",
+      projectDesc: "Order Meal is an online takeaway & home delivery food ordering system, which is compatible with all the devices, which means you can use any device including smartphones, tablets as well as computers to order food online.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "Get the App",
+          url: "https://play.google.com/store/apps/details?id=com.ordermeal"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/omdriver.webp"),
+      projectName: "Order Meal Driver",
+      projectDesc: "Order Meal Driver application provides fast and reliable delivery service to New Zealand customers and helps restaurants to deliver food. Drivers can work as per their availability and earn money.",
+      footerLink: [
+        {
+          name: "Get the App",
+          url: "https://play.google.com/store/apps/details?id=com.ordermeal.driver"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/grandimperial.webp"),
+      projectName: "Grand Imperial",
+      projectDesc: "Grand Imperial mobile app is the official F&B app which allow users to utilise our online facilities, interact, communicate and redeem reward points on each transaction.",
+      footerLink: [
+        {
+          name: "Get the App",
+          url: "https://play.google.com/store/apps/details?id=com.lueinfoservices.grandimperialgroup"
         }
       ]
     }
@@ -300,7 +324,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -312,16 +336,10 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://androidbeasts.wordpress.com/",
+      title: "Welcome to the ultimate Android blog, your one-stop destination for all things Android!",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Whether you're a seasoned Android enthusiast, a budding developer, or simply a user looking to make the most of your Android device, this blog is here to keep you updated, informed, and inspired. We delve into the vast and ever-evolving world of Android to bring you the latest news, tips, tricks, app reviews, development insights, and so much more."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -343,7 +361,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,22 +374,22 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8588030613",
+  email_address: "aksh.dpk5@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
