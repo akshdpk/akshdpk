@@ -23,11 +23,11 @@ const greeting = {
   username: "Aakash Deepak",
   title: "Hi all, I'm Aakash",
   subTitle: emoji(
-    "I'm a highly experienced Android Developer with 9 years of expertise in crafting innovative and user-centric mobile applications. My passion for mobile technology and my dedication to delivering top-notch solutions make me a reliable choice for your Android development needs."
+    "I'm a highly experienced Android Developer with 10+ years of expertise in crafting innovative and user-centric mobile applications. My passion for mobile technology and my dedication to delivering top-notch solutions make me a reliable choice for your Android development needs."
     // "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/13hXWZpCEMAPvIdPimJyOpYoiA5aywZaS/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1NYJCr305F2bB1mhfXqmgAz_Ibu7pRx8A/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "I craft user-friendly Android apps with 9 years of experience.",
+  subTitle: "I craft user-friendly Android apps with 10 years of experience.",
   skills: [
     emoji(
       "⚡ Develop highly interactive User Interfaces for your mobile applications"
@@ -162,10 +162,20 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Android Developer",
+      company: "Techolution",
+      companylogo: require("./assets/images/techolutionLogo.jpeg"),
+      date: "Dec 2023 - Present",
+      descBullets: [
+        "Led the development of a Lyrics Module for a leading US music company, utilizing Compose and MVVM, resulting in a 25% increase in user engagement.",
+        "Deployed advanced analytics tracking to gain insights into user behavior, enabling data-driven decision-making and feature optimization."
+      ]
+    },
+    {
       role: "Technology Lead",
       company: "Infosys",
       companylogo: require("./assets/images/infosysLogo.jpg"),
-      date: "Dec 2021 - Present",
+      date: "Dec 2021 - Dec 2023",
       descBullets: [
         "Led the development of the Manufacturing Parts and Accessories Management Platform and implemented key features.",
         "Developed an Android Application for handheld devices to manage in-house assembly and shipping parts for a car manufacturing company using Socket Communication, ensuring a seamless user experience."
@@ -217,6 +227,18 @@ const bigProjects = {
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
+    {
+      image: require("./assets/images/iHeartLogo.webp"),
+      projectName: "iHeart: Radio, Podcasts, Music",
+      projectDesc: "Listen to thousands of live radio stations, tune in to trending podcasts and stream unlimited music playlists, all in one app. Stream new songs and podcasts on any device, including smartphones, tablet, Chromecast and Wear OS.",
+      footerLink: [
+        {
+          name: "Get the App",
+          url: "https://play.google.com/store/apps/details?id=com.clearchannel.iheartradio.controller&hl=en_IN"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/bemeLogoWeb.webp"),
       projectName: "BeMe: Teen Wellness",
