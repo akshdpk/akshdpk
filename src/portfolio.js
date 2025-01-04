@@ -156,7 +156,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Android Developer",
+      role: "Sr. Android Developer",
       company: "Techolution",
       companylogo: require("./assets/images/techolutionLogo.jpeg"),
       date: "Dec 2023 - Present",
