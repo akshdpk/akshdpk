@@ -56,15 +56,9 @@ const skillsSection = {
       "⚡ Develop highly interactive User Interfaces for your mobile applications"
     ),
     emoji("⚡ Prioritizing exceptional user experiences"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase"
-    ),
-    emoji(
-      "⚡ Collaborating with cross-functional teams for project success"
-    ),
-    emoji(
-      "⚡ Staying current with the latest mobile technologies and trends"
-    )
+    emoji("⚡ Integration of third party services such as Firebase"),
+    emoji("⚡ Collaborating with cross-functional teams for project success"),
+    emoji("⚡ Staying current with the latest mobile technologies and trends")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -230,7 +224,8 @@ const bigProjects = {
     {
       image: require("./assets/images/iHeartLogo.webp"),
       projectName: "iHeart: Radio, Podcasts, Music",
-      projectDesc: "Listen to thousands of live radio stations, tune in to trending podcasts and stream unlimited music playlists, all in one app. Stream new songs and podcasts on any device, including smartphones, tablet, Chromecast and Wear OS.",
+      projectDesc:
+        "Listen to thousands of live radio stations, tune in to trending podcasts and stream unlimited music playlists, all in one app. Stream new songs and podcasts on any device, including smartphones, tablet, Chromecast and Wear OS.",
       footerLink: [
         {
           name: "Get the App",
@@ -242,7 +237,8 @@ const bigProjects = {
     {
       image: require("./assets/images/bemeLogoWeb.webp"),
       projectName: "BeMe: Teen Wellness",
-      projectDesc: "BeMe is a mobile mental health platform — made for and With Teens In Mind™ — to improve teen well-being by bringing together the best aspects of digital media, live support, and clinical care.",
+      projectDesc:
+        "BeMe is a mobile mental health platform — made for and With Teens In Mind™ — to improve teen well-being by bringing together the best aspects of digital media, live support, and clinical care.",
       footerLink: [
         {
           name: "Get the App",
@@ -254,7 +250,8 @@ const bigProjects = {
     {
       image: require("./assets/images/ordermeal.webp"),
       projectName: "Order Meal",
-      projectDesc: "Order Meal is an online takeaway & home delivery food ordering system, which is compatible with all the devices, which means you can use any device including smartphones, tablets as well as computers to order food online.",
+      projectDesc:
+        "Order Meal is an online takeaway & home delivery food ordering system, which is compatible with all the devices, which means you can use any device including smartphones, tablets as well as computers to order food online.",
       footerLink: [
         {
           name: "Get the App",
@@ -265,7 +262,8 @@ const bigProjects = {
     {
       image: require("./assets/images/omdriver.webp"),
       projectName: "Order Meal Driver",
-      projectDesc: "Order Meal Driver application provides fast and reliable delivery service to New Zealand customers and helps restaurants to deliver food. Drivers can work as per their availability and earn money.",
+      projectDesc:
+        "Order Meal Driver application provides fast and reliable delivery service to New Zealand customers and helps restaurants to deliver food. Drivers can work as per their availability and earn money.",
       footerLink: [
         {
           name: "Get the App",
@@ -276,7 +274,8 @@ const bigProjects = {
     {
       image: require("./assets/images/grandimperial.webp"),
       projectName: "Grand Imperial",
-      projectDesc: "Grand Imperial mobile app is the official F&B app which allow users to utilise our online facilities, interact, communicate and redeem reward points on each transaction.",
+      projectDesc:
+        "Grand Imperial mobile app is the official F&B app which allow users to utilise our online facilities, interact, communicate and redeem reward points on each transaction.",
       footerLink: [
         {
           name: "Get the App",
@@ -359,7 +358,8 @@ const blogSection = {
   blogs: [
     {
       url: "https://androidbeasts.wordpress.com/",
-      title: "Welcome to the ultimate Android blog, your one-stop destination for all things Android!",
+      title:
+        "Welcome to the ultimate Android blog, your one-stop destination for all things Android!",
       description:
         "Whether you're a seasoned Android enthusiast, a budding developer, or simply a user looking to make the most of your Android device, this blog is here to keep you updated, informed, and inspired. We delve into the vast and ever-evolving world of Android to bring you the latest news, tips, tricks, app reviews, development insights, and so much more."
     }
